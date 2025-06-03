@@ -1,4 +1,4 @@
-import { userData, userId, firstName, username, tg, saveUserData, updateUI } from '../app.js';
+import { userData, userId, firstName, username, tg, saveUserData, updateUI } from 'app.js';
 
 // DOM elements
 const dailyBonusBtn = document.getElementById('daily-bonus-btn');
