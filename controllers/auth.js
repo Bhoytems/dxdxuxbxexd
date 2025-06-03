@@ -1,5 +1,5 @@
-const User = require('../models/User');
-const { verifyTelegramData } = require('../services/telegram');
+const User = require('/models/User.js';
+const { verifyTelegramData } = require('/services/telegram.js');
 
 async function getOrCreateUser(telegramData) {
   const { id, first_name, last_name, username, photo_url } = telegramData.user;
