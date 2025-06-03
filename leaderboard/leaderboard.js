@@ -1,4 +1,4 @@
-import { userData, userId, firstName } from '../app.js';
+import { userData, userId, firstName } from 'app.js';
 
 // DOM elements
 const leaderboardContentEl = document.getElementById('leaderboard-content');
